@@ -1,0 +1,19 @@
+{
+  "name": "shellchat",
+  "version": "1.0.0",
+  "description": "Terminal Based Chatgpt",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "Harneet Singh",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.3.1",
+    "openai": "^3.3.0",
+    "readline-sync": "^1.4.10"
+  }
+}
